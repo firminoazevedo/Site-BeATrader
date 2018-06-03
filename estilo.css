@@ -1,27 +1,36 @@
  
 * {
 	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 
  body {
  	overflow-x: hidden;
- 	margin: 0px;
- 	padding: 0px;
  	font-family: Helvetica, sans-serif;
- 	background: url('imagens/tradeb.jpeg');
  	background-attachment: fixed;
  	background: #f3f3f3;
  	
  }
 
  nav {
- 	margin: 0px;
- 	
+ 	text-transform: uppercase;
+	color: #88BC51;
+	margin: 0px 5px;
+	
+ 	padding: 30px 40px;
+ 	font-family: Hindi, sans-serif;
+ 	font-size: 14px;
+
+ 	position:
  }
 
+ nav > span {
+ 	float: left;
+ }
 
-nav > div > span > a:hover {
+nav > a:hover {
 	margin: 10px; /* Efeito */
 	padding: 10px;
 	box-shadow: -2px 2px 10px 1px grey;
@@ -43,25 +52,12 @@ footer {
 }
 
 #navegacao {
-	float: right;
- 	display: block;
  	height: 80px;
  	width: 100%;
  	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+ 	margin-bottom: 550px;
  	/*position: fixed;*/
 }
-
-#depoimentos {
-	font-size: 40px;
-	width: 50%;
-}
-
- #menu {
- 	float: right;
- 	padding: 30px 40px;
- 	font-family: Hindi, sans-serif;
- 	font-size: 14px;
- }
 
  #logo {
  	margin: 18px;
@@ -99,7 +95,7 @@ footer {
  	background-repeat: no-repeat; 
  }
 
- .texto-capa {
+ #texto-capa {
  	font-size: 50px;
   	font-weight: 700;
   	color: #fff;
@@ -200,7 +196,7 @@ footer {
  /* ============= Links =====================*/
 
 a:link {
- 	
+ 	color: #88BC51;
 }
 
 /* Links visitados*/
@@ -210,7 +206,7 @@ a:visited {
 
 /* Links hover*/
 a:hover{
-	
+	color: #88BC51;	
 }
 
 /* Links Active*/
@@ -221,10 +217,4 @@ a:active{
 
 
  /* ============ Texto =============== */
-
- nav > div > span > a {
-	text-transform: uppercase;
-	color: #88BC51;
-	margin: 0px 5px;
-}
 

@@ -20,10 +20,22 @@ header {
 }
 
 header nav {
-	 border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	/*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
+}
+
+nav {
+	position: sticky;
+	top: 0;
+}
+
+header nav.white {
+	position: fixed;
+	background-color: white;
+	color: grey;
 }
 
 .logo {
+
 	margin-top: 15px;
 	float: left;
 	background: url(imagens/trab-web.svg) no-repeat;
@@ -73,6 +85,7 @@ nav div a:active{
 }
 
  #texto-capa {
+ 	clear: both;
  	font-size: 50px;
   	font-weight: 700;
   	color: white;
@@ -98,7 +111,6 @@ nav div a:active{
  	color: white;
  	text-align: center;
  	margin: 50px;
-
  }
 
  .btn-capa:hover {
@@ -122,7 +134,7 @@ nav div a:active{
 
 
  section {
- 	width: 80%;
+ 	width: 70%;
 	margin: 50px auto;
  }
 
@@ -135,6 +147,7 @@ nav div a:active{
  }
 
  section > p, ul{
+ 	text-align: justify;
  	color: #555;
  	font-size: 18px;
  }
@@ -156,7 +169,21 @@ nav div a:active{
  	background: url('imagens/notebook.jpeg');
  	background-attachment: fixed;
  	width: 100%;
- 	height: 300px;
+ 	height: 400px;
+ }
+
+ div.imagem2 {
+ 	background: url('imagens/forex.jpg');
+ 	background-attachment: fixed;
+ 	width: 100%;
+ 	height: 400px;
+ }
+
+ div.imagem3 {
+ 	background: url('imagens/notebook.jpeg');
+ 	background-attachment: fixed;
+ 	width: 100%;
+ 	height: 400px;
  }
 
 h1.headline {
@@ -165,7 +192,7 @@ h1.headline {
 	font-size: 41px;
 	color: white;
 	text-transform: uppercase;
-	margin-top: 90px;
+	margin-top: 120px;
 }
 
 
@@ -173,9 +200,9 @@ h1.headline {
  	position: absolute;
  	overflow: hidden;
  	width: 100%;
- 	height: 300px;
+ 	height: 400px;
  	-webkit-opacity: 0;
- 	background-color: rgba(31, 31, 31, 0.9);
+ 	background-color: rgba(31, 31, 31, 0.7);
  	-webkit-transition: 1s;
  	color: #000;
  }
@@ -198,6 +225,10 @@ h1.headline {
 	height: 80px;
 	background-color: #222;
 	color: gray;
+}
+
+img {
+	margin-left: 20%;
 }
 
 .logo-rodape {

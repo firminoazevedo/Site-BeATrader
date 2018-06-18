@@ -29,8 +29,7 @@ nav {
 header nav.white {
 	position: fixed;
 	background-color: white;
-	color: grey;
-	transition: .5s;
+	-webkit-transition: 0.5s;
 	width: 100%;
 	border-bottom: 3px solid #88aa51;
 }
@@ -114,7 +113,19 @@ nav div a:active{
  	margin: 50px;
  }
 
- .btn-capa:hover {
+ .btn-simulador {
+ 	margin-top: 50px;
+ 	padding: 11px;
+ 	width: 30%;
+ 	font-weight: 500;
+ 	-webkit-border-radius: 50px;
+ 	background: #88BC51;
+ 	color: white;
+ 	text-align: center;
+ 	margin: 100px 450px;
+ }
+
+ .btn-capa:hover, .btn-simulador:hover{
  	color: #88BC51;
  	background: #fff;
  	-webkit-transition: .5s;
@@ -159,11 +170,11 @@ nav div a:active{
  }
 
  .separator {
- 	color: rgba(1,1,1, 1);
+ 	color: rgb(1,1,1);
  	margin: 10px auto;
  	width: 100%;
  	border-bottom: 5px solid #b9c941;
- 	padding: auto 100px;
+
  }
 
  div.imagem {
@@ -177,7 +188,7 @@ nav div a:active{
 
  div.imagem2 {
  	background: url('imagens/forex3.jpeg');
- 	background-size: contain;
+ 	-webkit-background-size: contain;
  	background-attachment: fixed;
  	width: 100%;
  	height: 400px;
@@ -199,8 +210,8 @@ h2.headline {
  	width: 100%;
  	height: 400px;
  	-webkit-opacity: 0;
- 	background-color: rgba(31, 31, 31, 0.7);
- 	-webkit-transition: 1s;
+ 	background-color: rgb(31, 31, 31);
+ 	-webkit-transition: 5s;
  	color: #000;
  }
 

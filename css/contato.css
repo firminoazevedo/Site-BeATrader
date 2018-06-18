@@ -14,45 +14,45 @@
 }
 
 
-input[type="text"]{
+input.text{
 	margin-left: 15%;
 	width: 70%;
 	padding: 7px;
 	border: 0px;
-	border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 
-input[type="email"]{
+input.email{
 	margin-left: 15%;
 	width: 70%;
 	padding: 7px;
 	border: 0px;
-	border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 
-input[type="submit"]{
+input.submit{
 	margin-left: 15%;
 	width: 10%;
 	padding: 7px;
 	border: 0px;
-	border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 
-input[id="mensagem"]{
+input.mensagem{
 	margin-left: 15%;
 	width: 70%;
 	height: 100px;
 	padding: 7px;
 	border: 0px;
-	border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 
-input[id="radio"]{
+input.radio{
 	margin-left: 15%;
 	width: 70%;
 	padding: 7px;
 	border: 0px;
-	border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 
 #alinhar{

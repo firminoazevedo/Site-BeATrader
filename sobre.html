@@ -1,9 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title> Sobre </title>
 	<link rel="stylesheet" type="text/css" href="estilo2.css">
 	<link rel="stylesheet" type="text/css" href="css/sobre.css">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+	<script type="text/javascript">
+		$(window).scroll(function() {
+  			if ($(document).scrollTop() > 100) {
+    			$('nav').addClass('white');
+  			} else {
+    			$('nav').removeClass('white');
+  		}
+	});
+	</script>
 </head>
 <body>
 
@@ -24,77 +37,70 @@
 		</nav>
 
 		<h1 id="texto-capa"> Sobre </h1>
-			<h4 id="subtexto-capa"> Veja alguns detalhes sobre os moderadores <br> da página !</h4>
+			<h4 id="subtexto-capa"> Veja alguns detalhes sobre os moderadores da página!</h4>
 
-		<a href="arquivos/material.rar">
-			<div class="btn-capa">
-			Baixar Ebooks de Apoio
-			</div>
-		</a>
 
 	</header>
 
-	<article>
+		<h2> ___________________ </h2>
 
-		<h1> ___________________ </h1>
-
-
+		<section>
 			<div>
-				<h1>
-					SOBRE
-				</h1>
+				<h2 id="quem">
+					QUEM SOMOS ?
+				</h2>
 
 			</div>
 			
 			<span class="sobre-autor">
-
-				<img src="imagens/autor1.jpg" class="foto-autores">
-
-				<h2>
+				<img src="imagens/autor1.jpg" class="foto-autores" alt=" ">
+				<br>
+				<br>
+				<h3>
 					Daniel Veloso, 31
-				</h2>
-
+				</h3>
+				<br>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum ante ut scelerisque efficitur. Vivamus turpis elit, pharetra
 				</p>
-				
+
+				<span>
+					<a href=""> <img src=""> /daniel.veloso</a>
+				</span>
+		
 			</span>
 
 			<span class="sobre-autor">
-				
 				<img src="imagens/autor2.jpg" class="foto-autores">
-				<h2>
+				<br> <br>
+				<h3>
 					Firmino Azevedo, 42
-				</h2>
-
+				</h3>
+				<br>
 				<p>
 					Fusce nunc massa, eleifend vel ante ut, vehicula suscipit lectus. Integer diam elit, tincidunt non accumsan euismod, imperdiet
 				</p>
 
+				<span>
+					<a href=""> <img src=""> /firminoazevedo_</a>
+				</span>
 			</span>
-
-		</div>
-
-		
-	</article>
+	</section>/
 
 	<footer>
 
-		<div>
-			<span id="logo-rodape"></span>
-			<span class="link-footer">
-				<a href="#"> Home </a>
-	            <a href="#"> Operçoes Binarias </a>
-	            <a href="#"> Gráficos </a>
-	            <a href="#"> Educaçao Financeira </a>
-	            <a href="#"> Sobre </a>
-			</span>			
-		</div>
+		<a href="index2.html"> <span class="logo-rodape"></span> </a>
 
-		<div style="text-align:center, width=100%, float: right;">
-			2018 Copyright  |  BeAtrader
-		</div>
-		
+		<nav>
+				<ul>
+					<li> <a href="index2.html"> Home </a> </li>
+				    <li> <a href="opracoes-binarias.html"> Operçoes Binarias </a> </li>
+				    <li> <a href="graficos.html"> Gráficos </a> </li>
+				    <li> <a href="educacao-financeira.html"> Educaçao Financeira </a> </li>
+				    <li> <a href="contato.html"> Contato </a> </li>
+				    <li> <a href="sobre.html"> Sobre </a> </li>
+		        </ul>
+		</nav>		
 	</footer>
 
 </body>

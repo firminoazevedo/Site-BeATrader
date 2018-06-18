@@ -7,7 +7,6 @@
 
 body {
 	-webkit-overflow-x: hidden;
- 	background-attachment: fixed;
  	background: #f3f3f3;
 }
 
@@ -20,11 +19,10 @@ header {
 }
 
 header nav {
-	/*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
+	border-bottom: 1px solid #333;
 }
 
 nav {
-	position: sticky;
 	top: 0;
 }
 
@@ -32,10 +30,12 @@ header nav.white {
 	position: fixed;
 	background-color: white;
 	color: grey;
+	transition: .5s;
+	width: 100%;
+	border-bottom: 3px solid #88aa51;
 }
 
 .logo {
-
 	margin-top: 15px;
 	float: left;
 	background: url(imagens/trab-web.svg) no-repeat;
@@ -49,7 +49,7 @@ header nav.white {
 	padding: 29px 0px 10px 44%;
 	height: 40px;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 nav div a:hover {
@@ -57,7 +57,7 @@ nav div a:hover {
 	padding: 10px;
 	-webkit-box-shadow: -2px 2px 10px 1px #555;
 	-webkit-border-radius: 30px 30px 30px 30px;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 nav div a {
@@ -106,6 +106,7 @@ nav div a:active{
  	margin-top: 50px;
  	padding: 11px;
  	width: 15%;
+ 	font-weight: 500;
  	-webkit-border-radius: 50px;
  	background: #88BC51;
  	color: white;
@@ -125,7 +126,7 @@ nav div a:active{
  }
 
 
- article > h1 {
+ article > h2 {
  	font-size: 34px;
  	text-align: center;
  	text-transform: uppercase;
@@ -172,21 +173,17 @@ nav div a:active{
  	height: 400px;
  }
 
+
+
  div.imagem2 {
- 	background: url('imagens/forex.jpg');
+ 	background: url('imagens/forex3.jpeg');
+ 	background-size: contain;
  	background-attachment: fixed;
  	width: 100%;
  	height: 400px;
  }
 
- div.imagem3 {
- 	background: url('imagens/notebook.jpeg');
- 	background-attachment: fixed;
- 	width: 100%;
- 	height: 400px;
- }
-
-h1.headline {
+h2.headline {
 	position: absolute;
 	margin-left: -250px;
 	font-size: 41px;
@@ -212,11 +209,21 @@ h1.headline {
  	-webkit-opacity: 1;
  }
 
- div.imagem:hover h1.headline{
+ div.imagem:hover h2.headline{
  	margin-left: 400px;
  	-webkit-transition: 2s;
  }
 
+ div.imagem2:hover div.info{
+ 	-webkit-opacity: 1;
+ }
+
+ div.imagem2:hover h2.headline{
+ 	margin-left: 400px;
+ 	-webkit-transition: 2s;
+ }
+
+ 
  
 
  footer {

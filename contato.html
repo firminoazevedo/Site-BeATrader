@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title> Contato </title>
 	<link rel="stylesheet" type="text/css" href="estilo2.css">
 	<link rel="stylesheet" type="text/css" href="css/contato.css">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="javascript/contato.js"></script>
+
+
+	<script type="text/javascript">
+		$(window).scroll(function() {
+  			if ($(document).scrollTop() > 100) {
+    			$('nav').addClass('white');
+  			} else {
+    			$('nav').removeClass('white');
+  		}
+	});
+	</script>
 </head>
 <body>
 
@@ -24,23 +38,18 @@
 		</nav>
 
 		<h1 id="texto-capa"> Contato </h1>
-			<h4 id="subtexto-capa"> Que tal enviar-nos um email para mais detalhes ? <br> Hein ?  !</h4>
+			<h4 id="subtexto-capa"> Que tal enviar-nos um email para mais detalhes? <br> Em? !</h4>
 
-		<a href="arquivos/material.rar">
-			<div class="btn-capa">
-			Baixar Ebooks de Apoio
-			</div>
-		</a>
 
 	</header>
 
-	<article>
 
-		<h1> _______________________ </h1>
+	<article>
 
 		<div id="contato">
 			<div id="contato2" class="topic">
 				<p> <strong> Ficou com <strong id="bgWhite"> mais dúvidas ? </strong> </strong> </p> 
+				<br>
 				<p> <strong> Envie-nos um email ! </strong> </p>
 			</div>
 
@@ -58,7 +67,7 @@
 				<input type="text" name="" id="assunto" placeholder="Assunto do Email"> <br><br>
 				<div id="alinhar">
 					<br> Tipo de Investimento <br>
-					<input type="radio" name="Renda" id="radio1" value="Renda Fixa">
+					<input type="radio" name="Renda" id="radio1" value="Renda Fixa" required>
 					<label for="radio1">Renda Fixa</label>
 					<input type="radio" name="Renda" id="radio2" value="Renda Variável">
 					<label for="radio2">Renda Variável</label> <br><br>
@@ -77,21 +86,18 @@
 
 	<footer>
 
-		<div>
-			<span id="logo-rodape"></span>
-			<span class="link-footer">
-				<a href="#"> Home </a>
-	            <a href="#"> Operçoes Binarias </a>
-	            <a href="#"> Gráficos </a>
-	            <a href="#"> Educaçao Financeira </a>
-	            <a href="#"> Sobre </a>
-			</span>			
-		</div>
+		<a href="index2.html"> <span class="logo-rodape"></span> </a>
 
-		<div style="text-align:center, width=100%, float: right;">
-			2018 Copyright  |  BeAtrader
-		</div>
-		
+		<nav>
+				<ul>
+					<li> <a href="index2.html"> Home </a> </li>
+				    <li> <a href="opracoes-binarias.html"> Operçoes Binarias </a> </li>
+				    <li> <a href="graficos.html"> Gráficos </a> </li>
+				    <li> <a href="educacao-financeira.html"> Educaçao Financeira </a> </li>
+				    <li> <a href="contato.html"> Contato </a> </li>
+				    <li> <a href="sobre.html"> Sobre </a> </li>
+		        </ul>
+		</nav>		
 	</footer>
 
 </body>

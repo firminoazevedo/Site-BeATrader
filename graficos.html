@@ -1,8 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title> Gráficos</title>
+	<title> Graficos </title>
+	
+	<link rel="stylesheet" type="text/css" href="css/galeria.css">
 	<link rel="stylesheet" type="text/css" href="estilo2.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+	<script>
+		$(window).scroll(function() {
+  			if ($(document).scrollTop() > 100) {
+    			$('nav').addClass('white');
+  			} else {
+    			$('nav').removeClass('white');
+  		}
+	});
+	</script>
 </head>
 <body>
 
@@ -21,42 +36,156 @@
 			    <a href="sobre.html"> Sobre </a>
 			</div>
 		</nav>
-
-		<h1 id="texto-capa"> gráficos </h1>
-			<h4 id="subtexto-capa"> Veja alguns gráficos para exemplos de aplicações <br> no Tesouro direto  !</h4>
-
-		<a href="arquivos/material.rar">
-			<div class="btn-capa">
-			Baixar Ebooks de Apoio
-			</div>
-		</a>
-
+		<h1 id="texto-capa"> Galeria </h1>
 	</header>
+		<div>
+			<ul>
+				<li><a href="#img1"><img src="imagens/graficos/01.png" class="min" alt=" "></a></li>
+				<li><a href="#img2"><img src="imagens/graficos/02.png" class="min" alt=" "></a></li>
+				<li><a href="#img3"><img src="imagens/graficos/03.png" class="min" alt=" "></a></li>
+				<li><a href="#img4"><img src="imagens/graficos/04.png" class="min" alt=" "></a></li>
+			</ul>
 
-	<article>
+			<ul>
+				<li><a href="#img5"><img src="imagens/graficos/05.png" class="min" alt=" "></a></li>
+				<li><a href="#img6"><img src="imagens/graficos/06.png" class="min" alt=" "></a></li>
+				<li><a href="#img7"><img src="imagens/graficos/07.png" class="min" alt=" "></a></li>
+				<li><a href="#img8"><img src="imagens/graficos/08.png" class="min" alt=" "></a></li>
+			</ul>
 
-		<h1> _____________________ </h1>
+			<ul>
+				<li><a href="#img9"><img src="imagens/graficos/09.png" class="min" alt=" "></a></li>
+				<li><a href="#img10"><img src="imagens/graficos/10.png" class="min" alt=" "></a></li>
+				<li><a href="#img11"><img src="imagens/graficos/11.png" class="min" alt=" "></a></li>
+				<li><a href="#img12"><img src="imagens/graficos/12.png" class="min" alt=" "></a></li>
+			</ul>
 
-		
-	</article>
+			<div class="lbox" id="img1">
+				<div class="box_img">
+					<a href="#img12" class="btn prev">&#171; </a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/01.png" class="tam" alt=" ">
+					<a href="#img2" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img2">
+				<div class="box_img">
+					<a href="#img1" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/02.png" class="tam" alt=" ">
+					<a href="#img3" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img3">
+				<div class="box_img">
+					<a href="#img2" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/03.png" class="tam" alt=" ">
+					<a href="#img4" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img4">
+				<div class="box_img">
+					<a href="#img3" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/04.png" class="tam" alt=" ">
+					<a href="#img5" class="btn next">&#187;</a>
+				</div>
+
+			</div>
+
+			<div class="lbox" id="img5">
+				<div class="box_img">
+					<a href="#img4" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/05.png" class="tam" alt=" ">
+					<a href="#img6" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img6">
+				<div class="box_img">
+					<a href="#img5" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/06.png" class="tam" alt=" ">
+					<a href="#img7" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img7">
+				<div class="box_img">
+					<a href="#img6" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/07.png" class="tam" alt=" ">
+					<a href="#img8" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img8">
+				<div class="box_img">
+					<a href="#img7" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/08.png" class="tam" alt=" ">
+					<a href="#img9" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img9">
+				<div class="box_img">
+					<a href="#img8" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/09.png" class="tam" alt=" ">
+					<a href="#img10" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img10">
+				<div class="box_img">
+					<a href="#img9" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/10.png" class="tam" alt=" ">
+					<a href="#img11" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img11">
+				<div class="box_img">
+					<a href="#img10" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/11.png" class="tam" alt=" ">
+					<a href="#img12" class="btn next">&#187;</a>
+				</div>
+			</div>
+
+			<div class="lbox" id="img12">
+				<div class="box_img">
+					<a href="#img11" class="btn prev">&#171;</a>
+					<a href="" class="btn close">X</a>
+					<img src="imagens/graficos/12.png" class="tam" alt=" ">
+					<a href="#img1" class="btn next">&#187;</a>
+				</div>
+			</div>
+	</div>
+
+
 
 	<footer>
 
-		<div>
-			<span id="logo-rodape"></span>
-			<span class="link-footer">
-				<a href="#"> Home </a>
-	            <a href="#"> Operçoes Binarias </a>
-	            <a href="#"> Gráficos </a>
-	            <a href="#"> Educaçao Financeira </a>
-	            <a href="#"> Sobre </a>
-			</span>			
-		</div>
+		<a href="index2.html"> <span class="logo-rodape"></span> </a>
 
-		<div style="text-align:center, width=100%, float: right;">
-			2018 Copyright  |  BeAtrader
-		</div>
-		
+		<nav>
+				<ul>
+					<li> <a href="index2.html"> Home </a> </li>
+				    <li> <a href="opracoes-binarias.html"> Operçoes Binarias </a> </li>
+				    <li> <a href="graficos.html"> Gráficos </a> </li>
+				    <li> <a href="educacao-financeira.html"> Educaçao Financeira </a> </li>
+				    <li> <a href="contato.html"> Contato </a> </li>
+				    <li> <a href="sobre.html"> Sobre </a> </li>
+		        </ul>
+		</nav>		
 	</footer>
 
 </body>

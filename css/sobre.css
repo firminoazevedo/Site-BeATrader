@@ -9,6 +9,16 @@
 }
 
 
+h2 {
+	text-align: center;
+}
+
+#quem {
+	margin: 30px 20% 30px 20%;
+	font-size: 40px;
+}
+
+
 .sobre-autor {
 	width: 40%;
 	padding-left: 50px;
@@ -17,9 +27,10 @@
 }
 
 .foto-autores {
-	border-radius: 50px;
-	width: 100px;
-	height: 100px;
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+	margin: 40px;
 }
 
 .sobre-titulo {

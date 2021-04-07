@@ -13,7 +13,7 @@ body {
 header {
 	width: 100%;
 	height: 600px;
-	background: url('imagens/nav-home.png');
+	background: url('../imagens/nav-home.png');
  	-webkit-background-size: contain;
  	background-repeat: no-repeat;
 }
@@ -37,7 +37,7 @@ header nav.white {
 .logo {
 	margin-top: 15px;
 	float: left;
-	background: url(imagens/trab-web.svg) no-repeat;
+	background: url(../imagens/trab-web.svg) no-repeat;
 	-webkit-background-size: contain;
 	height: 40px;
 	width: 170px;
@@ -178,7 +178,7 @@ nav div a:active{
  }
 
  div.imagem {
- 	background: url('imagens/notebook.jpeg');
+ 	background: url('../imagens/notebook.jpeg');
  	background-attachment: fixed;
  	width: 100%;
  	height: 400px;
@@ -187,7 +187,7 @@ nav div a:active{
 
 
  div.imagem2 {
- 	background: url('imagens/forex3.jpeg');
+ 	background: url('../imagens/forex3.jpeg');
  	-webkit-background-size: contain;
  	background-attachment: fixed;
  	width: 100%;
@@ -251,7 +251,7 @@ img {
 
 .logo-rodape {
 	float: left;
-	background: url(imagens/trab-web.svg) no-repeat;
+	background: url(../imagens/trab-web.svg) no-repeat;
 	-webkit-background-size: contain;
 	height: 40px;
 	width: 180px;

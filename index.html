@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title> Home | Be a Trader</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link rel="stylesheet" type="text/css" href="css/contato.css">
-	<link rel="stylesheet" type="text/css" href="css/sobre.css">
-	<script src="javascript/contato.js"></script>
+	<title> Home </title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+	<script>
+		$(window).scroll(function() {
+  			if ($(document).scrollTop() > 100) {
+    			$('nav').addClass('white');
+  			} else {
+    			$('nav').removeClass('white');
+  		}
+	});
+	</script>
 </head>
 
 <body>
 
-	<header id="navegacao">
-
-
-		<nav id="menu">
-
-			<span id="logo"></span>
-
-			<div class="linkss">
-			
-				<a href="#"> Home </a>
-			    <a href="opracoes-binarias.html"> Operçoes Binarias </a>
-			    <a href="#"> Gráficos </a>
-			    <a href="educacao-financeira.html"> Educaçao Financeira </a>
-			    <a href="#"> Contato </a>
-			    <a href="#"> Sobre </a>
-
-		    </div>
+	<header>
+		<nav>
+			<a href="index.html">  <div class="logo"></div> </a>
+			<div id="navegacao">
+				<a href="index.html"> Home </a>
+			    <a href="paginas/opracoes-binarias.html"> Operçoes Binarias </a>
+			    <a href="paginas/graficos.html"> Gráficos </a>
+			    <a href="paginas/educacao-financeira.html"> Educaçao Financeira </a>
+			    <a href="paginas/contato.html"> Contato </a>
+			    <a href="paginas/sobre.html"> Sobre </a>
+			</div>
 		</nav>
 
-		<div class="capa">
-
-			<h1 class="texto-capa"> Seja um Trader </h1>
-			<h4 class="subtexto-capa"> Aprenda a como se transformar em um trader de sucesso, <br> e a mudar de vida !</h4>
+		<h1 id="texto-capa"> Seja um Trader </h1>
+			<h4 id="subtexto-capa"> Aprenda a como se transformar em um trader de sucesso, <br> e a mudar de vida !</h4>
 
 		<a href="arquivos/material.rar">
 			<div class="btn-capa">
 			Baixar Ebooks de Apoio
 			</div>
 		</a>
-		</div>
+
 	</header>
 
-	
-
-	
-
 	<article>
-	<section id="area">
-		<h1>Entendendo o que é</h1>
 
-		<div id="">
-			<h2 class="titulo"> O que é um Trader ?</h2>
+		<h2> Introdução </h2>
+
+
+		<section>
+			<h3>Entendendo o que é</h3>
+			<br>
+			<hr>
+			<br>
+			<br>
 			<p>
 				O trader é um investidor do mercado financeiro que busca ganhar dinheiro com operações de curto
 				prazo, aproveitando-se da volatilidade do mercado. Basicamente, ele busca ganhos financeiros
@@ -60,98 +63,193 @@
 				fundamental para o funcionamento do mercado, pois ele é quem ajuda a "precificar" os ativos no
 				curto prazo, além de dar liquidez ao mercado.
 			</p>
-		</div>
 
-		<div id="postagem">
-			<h1 class="titulo">
-			O que é o Mercado Financeiro?
-			</h1>
+		</section>
 
+		<section>
+			<h3>O que é o Mercado Financeiro?</h3>
+			<br>
+			<hr>
+			<br>
+			<br>
 			<p>
 				É onde as PESSOAS negociam valores. O mercado financeiro faz ligação
 				entre PESSOAS ou empresas que tem dinheiro e pessoas ou empresa
 				que precisam deste dinheiro.
 			</p>
 
+			<br>
 			<p>
 				<strong>É composto por três grupos: </strong>
 			</p>
+			<br>
 			<p>
 				Autoridades monetárias: Responsáveis pelo cumprimento da
 				política monetária nacional com medidas para reduzir ou aumentar a
 				oferta da moeda. Exemplos no Brasil: Conselho Monetário Nacional
-				(CMN) e o Banco Central.
+				(CMN) e o Banco Central. <br>
 				Autoridades de apoio: São coadjuvantes da execução da política
-				monetária e reputação do mercado financeiro. Atuam de acordo com o
+				monetária e reputação do mercado financeiro. Atuam de acordo com o seu
+				objetivo principal em parte do mercado.
 			</p>
+		</section>
+
+		<section>
+			<h3> 10 Erros Mais comuns </h3>
+			<br>
+			<hr>
+
+				<ul>
+					<li>Investir todo seu dinheiro em ações</li>
+					<li>Comprar e vender por emoção</li>
+					<li>Seguir as dicas “infalíveis” de outros investidores</li>
+					<li>Negligenciar taxas e custos de transações</li>
+					<li>Confundir especulação com investimento</li>
+					<li>Investir em algo que você não entende</li>
+					<li>Comprar ações ruins (micos)</li>
+					<li>Comprar na alta e vender na baixa</li>
+					<li>Vender as vencedoras e manter as perdedoras</li>
+					<li>Negligenciar a importância da diversificação</li>
+				</ul>
+		</section>
+
+		<hr class="separator">
+
+		<div class="imagem">
+			<div class="info">
+				<h2 class="headline">Prefere não arriscar ?</h2>
+			</div>
 		</div>
 
-		<div>
-			<h2 class="titulo">10 Erros Mais comuns</h2>
-			<ul>
-				<li>Investir todo seu dinheiro em ações</li>
-				<li>Comprar e vender por emoção</li>
-				<li>Seguir as dicas “infalíveis” de outros investidores</li>
-				<li>Negligenciar taxas e custos de transações</li>
-				<li>Confundir especulação com investimento</li>
-				<li>Investir em algo que você não entende</li>
-				<li>Comprar ações ruins (micos)</li>
-				<li>Comprar na alta e vender na baixa</li>
-				<li>Vender as vencedoras e manter as perdedoras</li>
-				<li>Negligenciar a importância da diversificação</li>
-			</ul>
+		<h2> Renda Fixa </h2>
+
+		<section>
+			<h3>O que é renda fixa ?</h3>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<p>
+				Você não precisa de <strong> NENHUM CONHECIMENTO </strong> técnico para
+				começar, mas precisará saber o que está fazendo, é claro.
+			</p>
+			<br>
+			<p>
+				Basicamente, você empresta dinheiro para o governo, por exemplo, e de
+				contrapartida, eles te pagaram juros. No Brasil, estão enquadrados na
+				categoria Renda Fixa todos os investimentos que no momento da
+				contratação você já conhece qual será a taxa que você poderá receber de
+				juros do valor do seu investimento, ou seja, você sabe a taxa que o
+				emissor vai lhe pagar pelo seu investimento (empréstimo feito por você
+				a ele), mas não necessariamente o valor final que a aplicação terá
+				(inclua impostos e mudanças da taxa de juros.
+				isso mais adiante).
+			</p>
+			<br>
+			<p>
+				Em resumo: Renda Fixa é um investimento com risco de perda próximo
+				a ZERO (próximo ao risco da poupança) e os mais conhecidos são:<strong> Tesouro Direto,
+				CDB, Letras de Crédito Imobiliário LCI, LCA.</strong>
+				Você encontrará estas opções de investimentos no seu banco ou em
+				corretoras de todo o Brasil.
+			</p>
+		</section>
+
+			<section>
+			<h3> Tipos de Titulos públicos</h3>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<p>
+				<strong> Prefxado e pós-fxado </strong>
+			</p>
+			<br>
+			<p>
+				Os títulos prefxados têm suas taxas de juros fxadas no momento de
+				compra. Assim, aconteça o que acontecer com a economia, você receberá os juros no dia do vencimento, conforme a taxa que foi fxada de antemão, no momento em que você os comprou.
+			</p>
+			<br>
+			<p>
+				Os títulos pós-fxados não possuem uma taxa fxa de juros no momento de compra. A taxa varia com o passar dos meses e está associada a algum índice de mercado (em alguns locais você irá ler a palavra “indexador” de mercado), como a taxa SELIC (Sistema Especial de Liquidação e Custódia) ou a inﬂação, medida pelo IPCA (Índice de Preços ao Consumidor Amplo).
+			</p>
+		</section>
+
+		<section>
+			<h3>O que é um agente de custódia</h3>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<p>
+				É o ato de proteger,
+				guardar alguém ou algo. No contexto dos títulos públicos, o agente de
+				custódia é a instituição responsável por intermediar (e não por guardar) suas operações de compra e venda, por meio do programa Tesouro Direto.
+			</p>
+
+			<br>
+			<p>
+				São as chamadas corretoras e distribuidoras de valores. E os bancos?
+				Eles não são agentes de custódia diretos, mas alguns deles possuem
+				suas próprias corretoras de valores, o que os autorizam a operar como
+				agentes de custódia.
+			</p>
+
+		</section>
+
+		<section>
+			<h3> Nomes dos títulos </h3>
+			<br>
+			<hr>
+				<ul>
+					<li>Tesouro SELIC </li>
+					<li>Tesouro Prefxado </li>
+					<li>Tesouro Prefxado com Juros Semestrais</li>
+					<li>Tesouro IPCA+ </li>
+					<li>Tesouro IPCA+ com Juros Semestrais</li>
+				</ul>
+		</section>
+		<div class="imagem2">
+			<div class="info">
+				<h2 class="headline">Forex ?</h2>
+			</div>
 		</div>
+
+		<h2> Forex </h2>
+
+		<section>
+			<h3>O que é forex ?</h3>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<p>
+				São títulos que pagam, em períodos definidos, uma certa remuneração, que pode ser determinada no momento da aplicação ou no momento do resgate (no final da aplicação). O modo mais fácil de entender o que é um título de renda fixa é imaginar cada título como um empréstimo.
+			</p>
+			<br>
+
+			<embed src="https://www.youtube.com/embed/DxKQZUqzuh0" allowfullscreen="true" width="425" height="344">
+			<embed src="https://www.youtube.com/embed/UVkJW6FKq-4" allowfullscreen="true" width="425" height="344">
+
+		</section>	
 		
-	</section>
-
-	<section>
-		<h1>bosta</h1>
-		<img src="imagens/notebook.jpeg" alt="notebook">
-	</section>
-
-	<section id="cards-section">
-		<h1>bosta</h1>
-		<span class="">
-			
-		</span>
-
-		<div class="">
-			
-		</div>
-
-		<span class="">
-			
-		</span>
-		
-	</section>
-
 	</article>
 
-	
-
-
-	
-
-	
 	<footer>
 
-		<div>
-			<span id="logo-rodape"></span>
-			<span class="link-footer">
-				<a href="#"> Home </a>
-	            <a href="#"> Operçoes Binarias </a>
-	            <a href="#"> Gráficos </a>
-	            <a href="#"> Educaçao Financeira </a>
-	            <a href="#"> Sobre </a>
-			</span>			
-		</div>
+		<a href="index.html"> <span class="logo-rodape"></span> </a>
 
-		<div style="text-align:center, width=100%, float: right;">
-			2018 Copyright  |  BeAtrader
-		</div>
-		
+		<nav>
+				<ul>
+					<li> <a href="index.html"> Home </a> </li>
+				    <li> <a href="paginas/opracoes-binarias.html"> Operçoes Binarias </a> </li>
+				    <li> <a href="paginas/graficos.html"> Gráficos </a> </li>
+				    <li> <a href="paginas/educacao-financeira.html"> Educaçao Financeira </a> </li>
+				    <li> <a href="paginas/contato.html"> Contato </a> </li>
+				    <li> <a href="paginas/sobre.html"> Sobre </a> </li>
+		        </ul>
+		</nav>		
 	</footer>
 
 </body>
-
 </html>

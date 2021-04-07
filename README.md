@@ -6,3 +6,9 @@ O objetivo do site é fornercer alguns conhecimentos sobre o mundo de investimen
 
 # Requisito do Trabalho
 Desenvolver um site utilizando apenas HTML, CSS e Javascript. O site deve estar de acordo com os requisitos da W3C e passar no validador da W3C.
+O site deve possuir um formulário de contato, uma galeria e uma página "sobre"
+
+<p align="center">
+  <img src="imagens/preview.png" width="200" title="hover text">
+  <img src="imagens/graph.png" width="200" title="hover text">
+</p>
